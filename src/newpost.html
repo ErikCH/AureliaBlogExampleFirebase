@@ -1,0 +1,22 @@
+<template>
+
+<div class="col-md-4"> 
+       Add Post
+     <form role="form" submit.delegate="post()" class="au-target">
+      <div class="form-group">
+        <label for="fn">Title</label>
+        <input type="text" value.bind="title" class="form-control au-target" id="title">
+      </div>
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input type="text" value.bind="author" class="form-control au-target" id="author">
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" value.bind="description" class="form-control au-target" id="description">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    </div>
+</template>
